@@ -14613,14 +14613,15 @@ nav ul li a {
   font-weight: 500;
 }
 .main-nav-one ul li.has-dropdown a::before {
-  content: "\f078" !important;
+  content: "\f0d7";
   position: absolute !important;
   top: 50%;
-  font-family: "Font Awesome 5 Pro" !important;
+  font-family: "Font Awesome 6 Free" !important;
   right: -3px;
   transform: translateY(-50%);
   transition: 0.3s;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 600;
 }
 .main-nav-one ul li.has-dropdown .submenu {
   min-width: 230px;
